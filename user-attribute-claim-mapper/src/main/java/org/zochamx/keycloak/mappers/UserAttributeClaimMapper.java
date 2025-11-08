@@ -150,7 +150,6 @@ public class UserAttributeClaimMapper extends AbstractOIDCProtocolMapper
         }
 
         MatchMode mode = MatchMode.valueOf(modeStr);
-//        boolean matched = attrValues.stream().anyMatch(val -> matchesAll(val, targets, mode));
         boolean requireAll = "ALL".equalsIgnoreCase(mappingModel.getConfig()
                 .getOrDefault(CFG_MATCH_OPERATOR, "ANY"));
         boolean matched = requireAll
@@ -240,3 +239,4 @@ public class UserAttributeClaimMapper extends AbstractOIDCProtocolMapper
         }
     }
 }
+
