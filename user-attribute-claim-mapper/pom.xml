@@ -6,10 +6,10 @@
     <parent>
         <groupId>org.zochamx</groupId>
         <artifactId>keycloak-custom-claim-mappers</artifactId>
-        <version>1.0.0-snapshot-1</version>
+        <version>0.0.1</version>
     </parent>
     <artifactId>user-attribute-claim-mapper</artifactId>
-    <version>1.0.0-snapshot-1</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
 
